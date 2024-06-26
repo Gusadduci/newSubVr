@@ -1,0 +1,33 @@
+<head>
+    <style> body { margin: 0; } </style>
+  
+    <script src="//unpkg.com/3d-force-graph-vr"></script>
+    <!--<script src="../../dist/3d-force-graph-vr.js"></script>-->
+    <link href="style.css">
+  </head>
+  
+  <body>
+    <div class="click">
+    <div id="3d-graph" class="click" ></div>
+  </div>
+  
+    <script type="text/javascript">
+    document.body.style.cursor = 'none';
+      const Graph = ForceGraphVR()
+        (document.getElementById('3d-graph'))
+        
+        .jsonUrl('data/datos.json')
+        .nodeThreeObject(({ img }) => {
+          const imgTexture = new THREE.TextureLoader().load(`./imgs/${img}`);
+          const material = new THREE.SpriteMaterial({ map: imgTexture });
+          const sprite = new THREE.Sprite(material);
+          
+          sprite.scale.set(12, 12);
+  
+          return sprite;
+        })
+      
+     
+       
+    </script>
+  </body>

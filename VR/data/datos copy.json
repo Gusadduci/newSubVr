@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "BUSINESS_CROSS_M%%MESA.TXT_ARCHIVO",
+      "type": "ARCHIVO",
+      "color": "transparent",
+      "elementId": "4:c437eb91-ca1b-4729-8ab2-75e36663f2cc:386",
+      "distance": 2,
+      "img": "archivo.png",
+      "imgs": "archivo.png"
+    },
+    {
+      "id": "FTP_FTP",
+      "type": "FTP",
+      "color": "transparent",
+      "elementId": "4:c437eb91-ca1b-4729-8ab2-75e36663f2cc:0",
+      "distance": 2,
+      "img": "ftp.png",
+      "imgs": "ftp.png",
+      "descripcion": "Transmision de archivos."
+    },
+    {
+      "id": "COTI_ACEPTADAS_D%%DATE.TXT_ARCHIVO",
+      "type": "ARCHIVO",
+      "color": "transparent",
+      "elementId": "4:c437eb91-ca1b-4729-8ab2-75e36663f2cc:387",
+      "distance": 2,
+      "img": "archivo.png",
+      "imgs": "archivo.png"
+    }], "links": [
+    {
+      "source": "BUSINESS_CROSS_M%%MESA.TXT_ARCHIVO",
+      "target": "FTP_FTP",
+      "value": "ENVIA"
+    },
+    {
+      "source": "COTI_ACEPTADAS_D%%DATE.TXT_ARCHIVO",
+      "target": "FTP_FTP",
+      "value": "ENVIA"
+    },
+    {
+      "source": "INTERFAZ_COMPRO_M%%ANIMES.TXT_ARCHIVO",
+      "target": "FTP_FTP",
+      "value": "ENVIA"
+    },
+    {
+      "source": "INTERFAZ_BOLSA_M%%ANIMES.TXT_ARCHIVO",
+      "target": "FTP_FTP",
+      "value": "ENVIA"
+    },
+    {
+      "source": "RORC_COTIZADOR.TXT_ARCHIVO",
+      "target": "FTP_FTP",
+      "value": "ENVIA"
+    }] }
