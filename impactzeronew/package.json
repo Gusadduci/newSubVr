@@ -1,0 +1,46 @@
+{
+  "name": "impactzeronew",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "3d-force-graph-vr": "^2.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-force-graph": "^1.44.3",
+    "react-scripts": "5.0.1",
+    "react-vis-network-graph": "^3.0.1",
+    "sass": "^1.69.7",
+    "three": "^0.154.0",
+    "three-css2d": "^0.150.0-css2d-0.0.2",
+    "three-css2drenderer": "^1.0.0",
+    "three-spritetext": "^1.8.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

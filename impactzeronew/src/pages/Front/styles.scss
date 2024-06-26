@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fjalla+One&display=swap');
+
+.content {
+	font-family: "Fjalla One", sans-serif;
+	height: 80vh;
+	width: 130vh;
+	background-image: url("../../image/actualImage.png");
+    background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 10px auto;
+	
+	.cuadrado{
+		background-image: url("../../image/cuadrado.png");
+		background-size: cover;
+		height: 50vh;
+		width: 91vh;
+		display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 65px;
+	margin-top: 50px;
+	
+		.contentLogo{
+			margin-bottom: 15px;
+			margin-left: 4px;
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			height: 4.5vh;
+			width: 67vh;
+			color: white;
+			font-size: 5vh;
+			font-family: "Fjalla One", sans-serif;
+			font-weight: 400;
+			
+			.title{
+				display: flex;
+
+				
+
+				.efect{
+					background-image: url("../../image/1.png");
+					background: no-repeat;
+					width: 130px;
+					margin-right: 10px;
+
+				}
+				
+			}
+		}
+		
+		.contentWrap {
+			flex-direction: column;
+			width: 67vh;
+			.contentSearch {
+				background-color: rgb(233, 233, 233);
+				border-radius: 10px;
+				height: 6vh;
+				display: flex;
+				
+			}
+		
+		}
+		
+}
+}
+.disableFront {
+	display: none;
+}
+.content{
+animation-name: logo1;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+.efect{
+	animation-name: logo2;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes logo1 {
+	0% {
+		background-image: url("../../image/actualImage.png");
+	}
+	33%{
+		background-image: url("../../image/actualimage2.png");
+	}	
+	66%{
+		background-image: url("../../image/actualimage3.png");
+	}
+	100%{
+		background-image: url("../../image/actualimage4.png");
+	}
+
+
+	
+}
+
+
+@keyframes logo2 {
+	0% {
+		background-image: url("../../image/1.png");
+	}
+	10% {
+		background-image: url("../../image/2.png");
+	}
+	20%{
+		background-image: url("../../image/3.png");
+	}	
+	30%{
+		background-image: url("../../image/4.png");
+	}
+	40%{
+		background-image: url("../../image/5.png");
+	}
+	50%{
+		background-image: url("../../image/6.png");
+	}
+	60%{
+		background-image: url("../../image/5.png");
+	}
+	70%{
+		background-image: url("../../image/6.png");
+	}
+	80%{
+		background-image: url("../../image/7.png");
+	}
+	90%{
+		background-image: url("../../image/8.png");
+	}
+	100%{
+		background-image: url("../../image/9.png");
+	}
+
+}

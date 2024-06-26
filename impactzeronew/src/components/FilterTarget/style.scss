@@ -1,0 +1,120 @@
+.expandidoFiltro{
+    transition: 2s;
+    position: absolute;
+    right: 0px;
+    top: 300px;
+    height: 160px;
+    width: 60px;
+    background: transparent;
+    border-radius: 5px;
+    border-style:dashed;
+
+ .contentSwitch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        .switch{
+            color: white;
+            font-weight: bolder;
+            border-radius: 100px 0px 0px 100px;
+            margin-bottom: 20px;
+            border-style: none;
+            height: 30px;
+            width: 108px;
+           
+        }
+        
+        
+        .reset{
+            background: linear-gradient(178.56deg, rgba(0, 0, 0, 0.9) -2.37%, #b0b6da 238.53%);
+            border: 1px white solid;
+            width: 90px;
+            border-radius: 100px;
+            margin-right: 12px;
+        }
+        .reset:hover{
+            background: linear-gradient(178.56deg, rgba(93, 84, 119, 0.9) -10.37%, #717fdb 248.53%);
+          
+        }
+        .verdefluor{
+            background: linear-gradient(178.56deg, rgba(128, 94, 223, 0.9) -10.37%, #3d4fbe 248.53%);
+        }
+        .verdefluor:hover{
+            background: linear-gradient(178.56deg, rgba(89, 57, 177, 0.9) -10.37%, #121a52 248.53%);
+        }
+        .verde{
+            background: #5EC097;
+            color: black;
+        }.verde:hover{
+            background: #499475;
+        }
+    
+        .rojo{
+            background: #D04158;
+
+        }.rojo:hover{
+            background: #d65c70;
+
+        }
+        .amarillo{
+            background: #b6b35c;
+        }.amarillo:hover{
+            background: #706e39;
+        }
+        .turquesa{
+            background: #76c7ca;
+            color: black;
+
+        }.turquesa:hover{
+            background: #568f91;
+
+        }
+        .violeta{
+            background-color: violet;
+        }.violeta:hover{
+            background-color: rgb(175, 86, 175);
+        }
+        .celeste{
+            background: #3793CB;
+
+        }
+        .celeste:hover{
+            background: #2a6f9b;
+
+        }
+        .azul{
+            background: #1B3AE2;
+
+        }
+        .azul:hover{
+            background: #4d64e4;
+
+        }
+        .naranja{
+            background: #D07C52;
+
+        }.naranja:hover{
+            background: #a76443;
+
+        }
+        .switch:active{
+            background: linear-gradient(178.56deg, rgba(219, 215, 230, 0.9) -10.37%, #0320fc 248.53%);
+      
+        }
+        .gris{
+            background: grey;
+        }
+    }
+}
+.space {
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: rgb(174, 169, 169);
+    height: 20px;
+    width: 350px;
+}
+
+.ocult{
+    display: none;
+}
+

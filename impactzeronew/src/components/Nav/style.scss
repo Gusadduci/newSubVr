@@ -1,0 +1,29 @@
+.search {
+    width: 30vh;
+    height: 4vh;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    border-style: none;
+    margin: 1vh;
+    outline: 0;
+    padding-left: 20px;
+    margin-right: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    color: black;
+}
+
+.explode {
+    color: white;
+    margin: 0;
+    background-color: #181818;
+    border-radius: 5px;
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0;
+};
+
+.continue {
+    color: white;
+    border-radius: 10px;
+    background-color: transparent;
+}
